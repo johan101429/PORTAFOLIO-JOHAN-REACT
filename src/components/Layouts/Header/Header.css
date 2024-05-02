@@ -1,0 +1,20 @@
+.header-page {
+  width: 20%;
+  height: 70rem;
+  background-color: #39a900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+  margin-left: 9rem;
+  border: 2px solid #101010;
+
+}
+
+.header-page > img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 134px;
+  
+}
