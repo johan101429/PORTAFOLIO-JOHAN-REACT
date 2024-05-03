@@ -7,7 +7,7 @@ Section{
     flex-wrap: wrap;
     margin: 11px;
     flex-direction: column;
-    border: 2px solid #101010;
+    /* border: 2px solid #101010; */
     
     
 }
@@ -19,10 +19,11 @@ img{
 }
 p{
     display: flex;
-    justify-content:center;
+    justify-content: flex-end;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 25%;
+    flex-direction: row-reverse;
+    
 }
 
 h2{

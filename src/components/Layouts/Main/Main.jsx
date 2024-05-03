@@ -3,6 +3,7 @@ import { Subtitle_Main } from '../../UI/Subtitle_Main/Subtitle_Main'
 import { Section } from "../../Section/Section";
 import { Proyectos } from '../../UI/Proyectos/Proyectos';
 import { Card } from '../../UI/Card/Card';
+import { Experiencias } from '../../UI/Experiencias/Experiencias';
 
 export const Main = () => {
   return (
@@ -35,7 +36,12 @@ export const Main = () => {
       
 
       <Section className='Experiencias' >
-        <Subtitle_Main content="Experiencias" style={"Perfil"} />
+       <div className='Exp'> <Subtitle_Main content="Experiencias" style={"Perfil"} /></div> 
+        <div className='TiposExperiencias'>
+        <Experiencias/>
+        <Experiencias/>
+        <Experiencias/>
+        </div>
       </Section>
 
 
