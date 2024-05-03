@@ -18,8 +18,10 @@ li:hover {
 }
 
 .infor {
-    border: 2px solid #cd1313;
-    width: 10rem;
+    border: 3px solid #0d0d0d;
+    width: 15rem;
+    height: 8rem;
+    border-radius: 10%;
 }
 
 .info>div {

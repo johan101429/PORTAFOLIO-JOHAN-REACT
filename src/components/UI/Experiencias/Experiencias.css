@@ -1,37 +1,39 @@
-.card {
+.Experiencias {
     width: 400px;
     display: flex;
     margin: 20px;
     align-items: center;
     justify-content: center;
     box-shadow: 0 2px 5px #00000033;
-    height: 10rem;
+    height: 16rem;
     border: 2px solid #020202;
     border-radius: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;;
 
 }
-
-.card-image {
-    width: 40%;
-    height: 134px;
+.Experiencias-image {
+    width: 90%;
+    height: 155px;
     border: 2px solid #040404;
     object-fit: cover;
     border-radius: 12%;
 
 }
 
-.card-content {
+.Experiencias-content {
     padding: 40px;
 
 }
 
-.card-title {
+.Experiencias-title {
     font-size: 20px;
     font-weight: bold;
 
 }
 
-.card-text {
+.Experiencias-text {
     font-size: 14px;
     line-height: 1.5;
 
