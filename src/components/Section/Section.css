@@ -2,26 +2,33 @@
 Section{
 
     width: 97%;
-    height: 25%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    
     margin: 11px;
     flex-direction: column;
+    border: 2px solid #101010;
+    
     
 }
 img{
     width: 20rem;
     height: 20rem;
-    border: 2px solid blue;
+    border: 2px solid #020202;
     margin: 10px;
 }
-
-h2,p{
+p{
     display: flex;
     justify-content:center;
-    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25%;
 }
+
 h2{
+    display: flex;
+    justify-content:center;
+    font-size: large;
+    text-decoration: none;
     margin: 10px;
 }

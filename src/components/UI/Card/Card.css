@@ -1,0 +1,56 @@
+.card {
+    width: 300px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 10rem;
+    border: 2px solid rgb(2, 2, 2);
+
+}
+
+.card-image {
+    width: 50%;
+    height: 50px;
+    border: 2px solid rgb(235, 17, 17);
+    object-fit: cover;
+    
+}
+
+.card-content {
+    padding: 20px;
+    /* Agrega espacio dentro de la tarjeta */
+}
+
+.card-title {
+    font-size: 20px;
+    /* Ajusta el tamaño del título */
+    font-weight: bold;
+    /* Hace que el título sea más pesado */
+}
+
+.card-text {
+    font-size: 14px;
+    /* Ajusta el tamaño del texto */
+    line-height: 1.5;
+    /* Agrega espacio entre las líneas de texto */
+}
+
+.btn {
+    background-color: #007bff;
+    /* Ajusta el color del botón */
+    color: #fff;
+    /* Ajusta el color del texto del botón */
+    border: none;
+    /* Elimina el borde del botón */
+    padding: 10px 20px;
+    /* Agrega espacio dentro del botón */
+    cursor: pointer;
+    /* Cambia el cursor a mano cuando se pasa sobre el botón */
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    /* Cambia el color del botón al pasar el cursor */
+}

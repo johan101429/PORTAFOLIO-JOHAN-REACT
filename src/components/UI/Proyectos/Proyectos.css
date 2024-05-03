@@ -1,0 +1,32 @@
+li,
+a {
+    font-size: 2.5rem;
+    color: #f9f7f7;
+    list-style: none;
+    text-decoration: none;
+    border: #080808;
+}
+
+li {
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+
+li:hover {
+    border-bottom: #fff solid 2px;
+    font-weight: 900;
+}
+
+.infor {
+    border: 2px solid #cd1313;
+    width: 10rem;
+}
+
+.info>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
