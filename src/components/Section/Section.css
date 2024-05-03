@@ -2,18 +2,19 @@
 Section{
 
     width: 97%;
-    height: 25%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     margin: 11px;
     flex-direction: column;
     border: 2px solid #101010;
     
+    
 }
 img{
     width: 20rem;
     height: 20rem;
-    border: 2px solid rgb(2, 2, 2);
+    border: 2px solid #020202;
     margin: 10px;
 }
 p{

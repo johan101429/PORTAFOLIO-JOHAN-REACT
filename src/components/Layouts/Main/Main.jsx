@@ -2,6 +2,7 @@ import './Main.css'
 import { Subtitle_Main } from '../../UI/Subtitle_Main/Subtitle_Main'
 import { Section } from "../../Section/Section";
 import { Proyectos } from '../../UI/Proyectos/Proyectos';
+import { Card } from '../../UI/Card/Card';
 
 export const Main = () => {
   return (
@@ -11,17 +12,28 @@ export const Main = () => {
         <Subtitle_Main content="Perfil" style={"Perfil"} />
         <p>Desarrollador con experiencia en el uso de diversos lenguajes de programación para la creación de aplicaciones web y móviles. Poseo sólidas habilidades para la solución de problemas, la colaboración y el aprendizaje continuo</p>
       </Section>
+
       <Section className='Proyectos' >
         <Subtitle_Main content="Proyectos" style={"Perfil"} />
-        <Proyectos content="hola" clase={"info"} />
-
-
-
-
+        <div className='div-Card'>
+        <Card image="../Header/img/logoSena.png" title=" React" description=" lorem "/>
+        <Card image="" title=" React" description=" lorem " />
+        <Card image="" title=" React" description=" lorem " />
+        <Card image="" title=" React" description=" lorem " />
+        </div>
       </Section>
-      <Section className='Referencias' >
-        <Subtitle_Main content="Referencias" style={"Perfil"} />
-      </Section>
+
+      <div className='Referencias'>
+       <div className='Ref'> <Subtitle_Main content="Referencias" style={"Perfils"} /> </div> 
+        <div className='container-proyectos'>
+        <Proyectos/>
+        <Proyectos/>
+        <Proyectos/>
+        </div>
+
+      </div>
+      
+
       <Section className='Experiencias' >
         <Subtitle_Main content="Experiencias" style={"Perfil"} />
       </Section>

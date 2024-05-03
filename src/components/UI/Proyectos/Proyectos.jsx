@@ -1,3 +1,14 @@
 import './Proyectos.css'
 
-export const Proyectos = ({content, clase}) => <div className='infor'><spam className={clase} href=""> {content} </spam></div>
+export const Proyectos =() => {
+    return (
+        <div className='infor'>
+            <p> Nombre </p>
+            <p> Telefono</p>
+            <p> Correo </p>
+            <p> Cargo </p>
+
+            
+        </div>
+    )
+}
