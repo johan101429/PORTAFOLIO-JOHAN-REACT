@@ -4,6 +4,14 @@ import { Section } from "../../Section/Section";
 import { Proyectos } from '../../UI/Proyectos/Proyectos';
 import { Card } from '../../UI/Card/Card';
 import { Experiencias } from '../../UI/Experiencias/Experiencias';
+import main from '../../../assets/imagen/main/proyectos.png';
+
+
+
+
+
+
+
 
 export const Main = () => {
   return (
@@ -17,10 +25,10 @@ export const Main = () => {
       <Section className='Proyectos' >
         <Subtitle_Main content="Proyectos" style={"Perfil"} />
         <div className='div-Card'>
-        <Card image="../Header/img/logoSena.png" title=" React" description=" lorem "/>
-        <Card image="" title=" React" description=" lorem " />
-        <Card image="" title=" React" description=" lorem " />
-        <Card image="" title=" React" description=" lorem " />
+        <Card image={main} title=" React" description=" lorem "/>
+        <Card image={main} title=" React" description=" lorem " />
+        <Card image={main} title=" React" description=" lorem " />
+        <Card image={main} title=" React" description=" lorem " />
         </div>
       </Section>
 
@@ -38,9 +46,10 @@ export const Main = () => {
       <Section className='Experiencias' >
        <div className='Exp'> <Subtitle_Main content="Experiencias" style={"Perfil"} /></div> 
         <div className='TiposExperiencias'>
-        <Experiencias/>
-        <Experiencias/>
-        <Experiencias/>
+        <Experiencias title="JAVA" description=""/>
+        <Experiencias title="PHYTON"description=""/>
+        <Experiencias title='JAVASCRIPT' description=''/>
+        <Experiencias title='JAVASCRIPT' description=''/>
         </div>
       </Section>
 
