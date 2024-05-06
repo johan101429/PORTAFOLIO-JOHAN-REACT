@@ -5,6 +5,11 @@ import { Proyectos } from '../../UI/Proyectos/Proyectos';
 import { Card } from '../../UI/Card/Card';
 import { Experiencias } from '../../UI/Experiencias/Experiencias';
 import main from '../../../assets/imagen/main/proyectos.png';
+import logo_java  from '../../../assets/imagen/main/logo_java/logo_java.png';
+import logo_mongo  from '../../../assets/imagen/main/logo_mongo/MongoDB.png';
+import logo_Nodejs  from '../../../assets/imagen/main/logo_Nodejs/nodejs.png';
+import logo_react  from '../../../assets/imagen/main/logo_react/React.png';
+
 
 
 
@@ -46,10 +51,10 @@ export const Main = () => {
       <Section className='Experiencias' >
        <div className='Exp'> <Subtitle_Main content="Experiencias" style={"Perfil"} /></div> 
         <div className='TiposExperiencias'>
-        <Experiencias title="JAVA" description=""/>
-        <Experiencias title="PHYTON"description=""/>
-        <Experiencias title='JAVASCRIPT' description=''/>
-        <Experiencias title='JAVASCRIPT' description=''/>
+        <Experiencias image={logo_java} title="Java" description=""/>
+        <Experiencias image={logo_mongo} title="MongoDb"description=""/>
+        <Experiencias image={logo_Nodejs}title='NodeJs' description=''/>
+        <Experiencias image={logo_react} title='React' description=''/>
         </div>
       </Section>
 
