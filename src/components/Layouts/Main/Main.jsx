@@ -30,10 +30,10 @@ export const Main = () => {
       <Section className='Proyectos' >
         <Subtitle_Main content="Proyectos" style={"Perfil"} />
         <div className='div-Card'>
-        <Card image={main} title=" React" description=" lorem "/>
-        <Card image={main} title=" React" description=" lorem " />
-        <Card image={main} title=" React" description=" lorem " />
-        <Card image={main} title=" React" description=" lorem " />
+        <Card image={main} title="PROYECTO FREE MOVIES" description=" "/>
+        <Card image={main} title=" LARAVEL CON PHP" description="  " />
+        <Card image={main} title=" React" description="  " />
+        <Card image={main} title=" React" description="  " />
         </div>
       </Section>
 
@@ -55,6 +55,7 @@ export const Main = () => {
         <Experiencias image={logo_mongo} title="MongoDb"description=""/>
         <Experiencias image={logo_Nodejs}title='NodeJs' description=''/>
         <Experiencias image={logo_react} title='React' description=''/>
+        
         </div>
       </Section>
 
