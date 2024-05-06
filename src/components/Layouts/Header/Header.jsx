@@ -3,7 +3,7 @@ import { Subtitle } from '../../UI/Subtitle/Subtitle'
 import { Title } from '../../UI/Title/Title'
 import './Header.css'
 import { Footer } from '../Footer/Footer';
-import header from '../../../assets/imagen/header/foto_perfil.png'
+import header from '../../../assets/imagen/header/FOTO_CARNET.png'
 import logo_Sena from '../../../assets/imagen/logo_Sena/logoSena1.png'
 
 
