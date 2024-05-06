@@ -4,6 +4,8 @@ import { Title } from '../../UI/Title/Title'
 import './Header.css'
 import { Footer } from '../Footer/Footer';
 import header from '../../../assets/imagen/header/foto_perfil.png'
+import logo_Sena from '../../../assets/imagen/logo_Sena/logoSena1.png'
+
 
 
 export const Header = () => {
@@ -15,7 +17,7 @@ export const Header = () => {
       <Subtitle content="Proyectos" />
       <Subtitle content="Referencias" />
       <Subtitle content="Experiencia" />
-      <Logo imageUrl="src\components\Layouts\Header\img\logoSena.png" />
+      <Logo imageUrl={logo_Sena} />
       
       
         
